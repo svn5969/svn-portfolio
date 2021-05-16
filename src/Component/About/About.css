@@ -1,0 +1,59 @@
+.about-area{
+    background-image: url('../../images/about-bg.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    max-height: 250vh;
+    position: relative;
+}
+.about-details{
+    max-height: 250vh;
+}
+p{
+    font-size: 16px;
+}
+.tsparticles-canvas-el{
+    position: absolute;
+    height: 90vh;
+    width: 100%;
+    z-index: 1;
+}
+/* 
+.basic-info{
+    background-color: #6f29f1;
+    width: 100%;
+    min-height: 330px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid rgb(255, 217, 0);
+    color: rgb(241, 200, 66);
+} */
+.color-text{
+    color: rgb(8, 169, 233);
+}
+/* .green-color{
+    color: rgb(59, 253, 0);
+} */
+
+/* last update */
+/* .about-me-small{
+    padding:5px 10px;
+    color: rgb(31, 30, 30);
+    border: 1px solid gray;
+    background-color:#FFC600;
+} */
+.about-me{
+    margin-top:20px;
+    padding-top: 20px;
+    
+}
+/* .name{
+    
+    color: #FFC600;
+text-size-adjust: 20rem;
+} */
+/* .info{
+    color: #fffdfd;
+} */
+

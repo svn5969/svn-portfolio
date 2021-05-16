@@ -1,0 +1,28 @@
+.box{
+    border-radius: 15px;
+    margin: 20px auto;
+    background-color: #0857bd;
+    border: 2px solid rgb(81, 241, 220);
+    /* box-shadow: 2px 2px 5px red; */
+    min-height: 300px;
+    width: 100%;  
+    color: white;
+}
+.projectImage-area{
+    border-radius: 15px;
+    background-color: rgb(86, 153, 144);
+    overflow: hidden;  
+}
+.projectImage-area img{
+    display: block;
+    /* border: 1px solid red; */
+    transform: scale(1);
+    transition:  0.3s ease-in-out;
+}
+.projectImage-area img:hover{
+    transform: scale(1.3);
+    /* opacity: 0.8; */
+}
+.linkIcon img{
+    width: 25px;
+}

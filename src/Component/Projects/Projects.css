@@ -1,0 +1,9 @@
+.project-container{
+    min-height: 90vh;
+}
+.projectCard-navbar .btn:hover{
+    border-bottom: 1px solid red;
+}
+.header-color{
+    color: rgb(5, 5, 5);
+}

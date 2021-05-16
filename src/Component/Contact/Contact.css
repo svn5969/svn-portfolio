@@ -1,0 +1,40 @@
+.contact{
+    background-image: url('../../images/miles-burke-idhx-MOCDSk-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    max-height: 200vh;
+    position: relative;
+}
+.form-area{
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid rgb(217, 255, 0);
+    border-radius: 10px;
+    background: #07c500;
+   
+}
+.form-area input{
+    border: 2px solid rgb(0, 255, 106);
+    border-radius: 20px;
+}
+
+textarea{
+    border: 2px solid rgb(0, 255, 179);
+    border-radius: 20px;  
+}
+.links-area img{
+    width: 40px;
+}
+.footerIcon{
+    background: rgb(9, 88, 88);
+    border-radius: 10px;
+}
+.footerIcon:hover{
+    background: rgb(23, 173, 173);
+
+}
+.footer{
+    background: #032E65;
+}

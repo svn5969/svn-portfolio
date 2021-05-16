@@ -1,0 +1,9 @@
+.tsparticles-canvas-el{
+    position: absolute;
+    height: 90vh;
+    width: 100%;
+    z-index: 1;
+}
+/* .home{
+    background: #0A043C;
+} */
