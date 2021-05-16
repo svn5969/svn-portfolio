@@ -16,7 +16,7 @@ import Typography from '@material-ui/core/Typography';
 import Aos from 'aos';
 import "aos/dist/aos.css"
 import { Button } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
     paper: {
