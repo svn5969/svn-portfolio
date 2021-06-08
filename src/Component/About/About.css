@@ -1,5 +1,5 @@
 .about-area{
-    background-image: url('../../images/about-bg.webp');
+    background-image: url('../../images/top-banner.webp');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -29,8 +29,8 @@ p{
     border: 2px solid rgb(255, 217, 0);
     color: rgb(241, 200, 66);
 } */
-.color-text{
-    color: rgb(8, 169, 233);
+.black-color{
+    color: black;
 }
 /* .green-color{
     color: rgb(59, 253, 0);

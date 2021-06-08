@@ -14,7 +14,10 @@ const Projects = () => {
     // }
     return (
         <div className="project-container" id="projects" style={{paddingTop: "80px"}}>
-            <h2 className="text-center font-weight-bold text-uppercase header-color">Projects</h2>
+          <div class="section-heading-1">
+							
+							<h1 data-aos="fade-right" data-aos-delay="200">Projects</h1>
+						</div>
             <div className="container ">
                 {/* <div className="projectCard-navbar text-uppercase  text-center my-3">
                     <div className="btn text-white font-weight-bold" onClick={() => setProjects(ProjectData)}>All</div>

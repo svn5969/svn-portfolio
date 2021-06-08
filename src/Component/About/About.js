@@ -21,15 +21,18 @@ const About = () => {
 
             <div className="container mx-auto">
                 <div className="about-details py-5">
-                    <h2 className="font-weight-bold text-uppercase text-center color-text">ABOUT ME</h2>
+                <div class="section-heading-1">
+							
+							<h1 data-aos="fade-right" data-aos-delay="200">About Me</h1>
+						</div>
                     <div className="row mt-5">
                         <div className="col-md-4 text-white" style={{ width: '100%', margin: "0 auto" }}>
                             <h4 className="text-center font-weight-bold green-color text-uppercase">
                                 <div className="row">
-                                    <div className="col-md-3">
+                                    <div className="col-md-3 black-color">
                                         Myself
                                     </div>
-                                    <div className="col-md-9">
+                                    <div className="col-md-9 black-color">
                                         <Typewriter
                                             options={{
                                                 strings: ["Sourav Das Shovon", "Shovon"],
@@ -105,7 +108,7 @@ const About = () => {
 <div className="row d-flex align-items-center">
                 <div className="col-md-8 lg-8 sm-12">
                     {/* <h3 data-aos="fade-left" style={{paddingBottom:'20px'}}>Hi, I'm <span className='name'>Avi Mistry</span></h3> */}
-                    <p data-aos="fade-right" style={{ color: "#fffdfd" }}>I'm a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Delivering work within time and budget which meets client’s requirements is my motto . <br/>I am a very fast learner. I Always thrive on knowledge about next-generation technologies. And keep up the technology race.<br/>During my journey through the evolution of the technology, I picked my "Must Have" Technologies to work with that includes:<span style={{fontWeight:"600"}}> HTML5, CSS3, Bootstrap, javaScript, Es6, React Js, Node.js, Express Js, mySQL, mongodb & many more.</span> By Profession a Full Stack Web Developer.</p>
+                    <p data-aos="fade-right" style={{ color: "black" }}>I'm a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Delivering work within time and budget which meets client’s requirements is my motto . <br/>I am a very fast learner. I Always thrive on knowledge about next-generation technologies. And keep up the technology race.<br/>During my journey through the evolution of the technology, I picked my "Must Have" Technologies to work with that includes:<span style={{fontWeight:"600"}}> HTML5, CSS3, Bootstrap, javaScript, Es6, React Js, Node.js, Express Js, mySQL, mongodb & many more.</span> By Profession a Full Stack Web Developer.</p>
                  
                 </div>
                 <div data-aos="fade-left" className="col-md-4 lg-4 sm-12 text-center">
@@ -114,16 +117,16 @@ const About = () => {
                 <div className="d-flex">
                    
                     <div data-aos="fade-up-right" className="col-md-4 sm-6 info" >
-                        <p style={{ color: "#fffdfd" }}>Email:</p>
-                        <h6 style={{ color: "#fffdfd" }}>sourav.svn.10@gmail.com </h6>
+                        <p style={{ color: "black" }}>Email:</p>
+                        <h6 style={{ color: "black" }}>sourav.svn.10@gmail.com </h6>
                     </div>
                     <div data-aos="fade-up-left" className="col-md-3 sm-6 info" >
-                        <p style={{ color: "#fffdfd" }}>Phone:</p>
-                        <h6 style={{ color: "#fffdfd" }}>+8801716731852</h6>
+                        <p style={{ color: "black" }}>Phone:</p>
+                        <h6 style={{ color: "black" }}>+8801716731852</h6>
                     </div>
                     <div data-aos="fade-up-left" className="col-md-3 sm-6 info" >
-                        <p style={{ color: "#fffdfd" }}>Form:</p>
-                        <h6 style={{ color: "#fffdfd" }}>Faridpur,Dhaka,Bangladesh. </h6>
+                        <p style={{ color: "black" }}>Form:</p>
+                        <h6 style={{ color: "black" }}>Faridpur,Dhaka,Bangladesh. </h6>
                     </div>
                 </div>
                
