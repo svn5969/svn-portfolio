@@ -13,7 +13,10 @@ const Contact = () => {
         <section className="contact pt-3" id="contact">
            
             <div className="container mx-auto pb-5 mt-4">
-            <h2 className="text-center py-4 font-weight-bold"><span style={{color:'black'}}>CONTACT NOW</span></h2>
+            <div class="section-heading-1">
+							
+							<h1 data-aos="fade-right" data-aos-delay="200">Contract Now</h1>
+						</div>
                 <div className="row">
                     <div className="col-md-6 mb-5 text-center" data-aos="zoom-in">
                         <img src={contact} alt="" style={{width: '50%',border: "2px solid yellow", borderRadius:"15px"}}/>
